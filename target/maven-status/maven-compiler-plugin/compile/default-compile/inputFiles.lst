@@ -1,2 +1,5 @@
-C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\tareas\src\main\java\cl\copeuch\tareas\TareasApplication.java
-C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\tareas\src\main\java\cl\copeuch\tareas\entity\Tarea.java
+/Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/entity/Tarea.java
+/Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/controller/TareaController.java
+/Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/repository/TareaRepository.java
+/Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/service/TareaService.java
+/Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/TareasApplication.java

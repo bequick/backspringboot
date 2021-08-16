@@ -2,6 +2,7 @@ package cl.copeuch.tareas.entity;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.time.Instant;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,6 +10,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import org.springframework.data.annotation.CreatedDate;
 
 //import javax.validation.constraints.NotNull;
 
@@ -29,6 +32,7 @@ public class Tarea implements Serializable{
 	private String descripcion;
 	
 	//@NotNull(message = "Fecha de creación no puede ser vacío")
+	@CreatedDate
 	private Date fechaCreacion;
 	
 	//@NotNull(message = "Vigente no puede ser vacío")
