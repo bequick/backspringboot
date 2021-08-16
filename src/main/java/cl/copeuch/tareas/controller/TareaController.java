@@ -25,19 +25,19 @@ public class TareaController {
 	@Autowired
 	TareaService tareaService;
 	
-	@CrossOrigin(origins="http://localhost:3000")
+	//@CrossOrigin(origins="http://localhost:3000")
 	@GetMapping()
 	public ArrayList<Tarea> obtenerTareas(){
 		return tareaService.obtenerTareas();
 	}
 	
-	@CrossOrigin(origins="http://localhost:3000")
+	//@CrossOrigin(origins="http://localhost:3000")
 	@PostMapping()
 	public Tarea guardarTarea(@RequestBody Tarea tarea) {
 		return this.tareaService.guardarTarea(tarea);
 	}
 	
-	@CrossOrigin(origins="http://localhost:3000")
+	//@CrossOrigin(origins="http://localhost:3000")
 	@DeleteMapping(path = "/{id}")
 	public String eliminarPorId(@PathVariable("id") Long id) {
 		boolean ok = this.tareaService.eliminarTarea(id);
