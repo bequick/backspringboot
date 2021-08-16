@@ -2,4 +2,5 @@
 /Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/controller/TareaController.java
 /Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/repository/TareaRepository.java
 /Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/service/TareaService.java
+/Users/marcosdonoso/git/backspringboot/src/main/java/config/SwaggerConfig.java
 /Users/marcosdonoso/git/backspringboot/src/main/java/cl/copeuch/tareas/TareasApplication.java

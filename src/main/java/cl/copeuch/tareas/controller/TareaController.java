@@ -31,11 +31,13 @@ public class TareaController {
 		return tareaService.obtenerTareas();
 	}
 	
+	@CrossOrigin(origins="http://localhost:3000")
 	@PostMapping()
 	public Tarea guardarTarea(@RequestBody Tarea tarea) {
 		return this.tareaService.guardarTarea(tarea);
 	}
 	
+	@CrossOrigin(origins="http://localhost:3000")
 	@DeleteMapping(path = "/{id}")
 	public String eliminarPorId(@PathVariable("id") Long id) {
 		boolean ok = this.tareaService.eliminarTarea(id);
